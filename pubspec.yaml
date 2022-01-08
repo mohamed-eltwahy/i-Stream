@@ -1,0 +1,80 @@
+name: streamit_flutter
+description: A new Flutter application.
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.0
+  nb_utils: 3.3.0+7
+  html: 0.14.0+4
+  google_fonts: 1.1.1
+  http: 0.12.2
+  url_launcher: 5.7.10
+  mobx: ^1.1.1
+  flutter_mobx: ^1.1.0
+  animations: 1.1.2
+  package_info: 0.4.3+2
+  intl: ^0.16.1
+  flutter_widget_from_html: 0.4.2
+  cached_network_image: 2.3.3
+
+  provider:
+  image_picker_gallery_camera:
+  flutter_slidable:
+  video_player: ^0.10.11+1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  mobx_codegen:
+  build_runner: ^1.7.3
+  #flutter packages pub run build_runner build
+
+  flutter_localizations:
+    sdk: flutter
+
+# dependency_overrides:
+#   video_player: "1.0.1"
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/
+    - assets/icons/
+    - assets/images/
+    - assets/items/home/favorite/
+    - assets/items/home/
+    - assets/items/home/suggested/
+    - assets/items/home/trending/
+    - assets/items/home/upcoming/
+    - assets/items/movies/
+    - assets/items/movies/poster_ek42.png
+    - assets/items/shows/
+    - assets/items/actors/
+    - assets/items/episodes/
+    - assets/icons/ic_fb.png
+    - assets/icons/ic_google.png
+    - assets/images/background_ek35.png
+
+  fonts:
+    - family: Regular
+      fonts:
+        - asset: assets/fonts/googlesansregular.ttf
+
+    - family: Medium
+      fonts:
+        - asset: assets/fonts/googlesansmedium.ttf
+
+    - family: Semibold
+      fonts:
+        - asset: assets/fonts/googlesansmedium.ttf
+
+    - family: Bold
+      fonts:
+        - asset: assets/fonts/googlesansebold.ttf
